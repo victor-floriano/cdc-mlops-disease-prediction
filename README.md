@@ -24,11 +24,11 @@ The original repository can be found here: **[Olivia-Peng/BA882-pipeline_G10](ht
 
 ---
 
-## **📁 Project Structure**
-- `/functions/` – Google Cloud Functions for ETL and MLOps automation.
-- `/flows/` – Prefect Cloud workflows orchestrating pipeline execution.
+## **📁 Project Structure** - main folders
 - `/mlops-pipeline/` – Model training, hyperparameter tuning, and prediction scripts.
 - `/deploy-scripts/` – Deployment scripts for automating cloud infrastructure setup.
+- `/secondary-pipelines/` - Retrieval of additional data such as US Census data and diease information.
+- `/streamlit/` - Streamlit app with text to SQL capability.
 
 ---
 
